@@ -9,7 +9,7 @@ th {
 
 #data-abstraction {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .centered {
