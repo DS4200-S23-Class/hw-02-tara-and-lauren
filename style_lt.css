@@ -97,11 +97,12 @@ circle:hover {
 
 rect {
   fill: deepskyblue;
-  stroke:darkblue;
+  stroke: darkblue;
   stroke-width: 10px;
 }
 
 rect:hover {
   fill: #000;
 }
+
 
