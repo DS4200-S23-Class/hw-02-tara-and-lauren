@@ -9,6 +9,10 @@ th {
 
 .centered {
 	text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .left  {
@@ -66,10 +70,29 @@ h7 {
 
 .hotpink-column {
   background-color: hotpink;
-  height: 40px;
+  height: 370px;
 }
 
 .greenyellow-column {
   background-color: greenyellow;
-  height: 40px;
+  height: 370px;
 }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+circle{
+  fill: lightseagreen;
+  opacity: 50%;
+}
+
+rect {
+  fill: deepskyblue;
+  stroke:darkblue;
+  stroke-width:10
+}
+
