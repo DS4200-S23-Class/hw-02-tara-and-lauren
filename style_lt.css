@@ -85,14 +85,23 @@ img {
   width: 50%;
 }
 
-circle{
+circle {
   fill: lightseagreen;
   opacity: 50%;
+}
+
+circle:hover {
+  stroke: #000;
+  stroke-width: 10px;
 }
 
 rect {
   fill: deepskyblue;
   stroke:darkblue;
-  stroke-width:10
+  stroke-width: 10px;
+}
+
+rect:hover {
+  fill: #000;
 }
 
