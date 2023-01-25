@@ -73,3 +73,13 @@ h7 {
   background-color: greenyellow;
   height: 40px;
 }
+
+.circ:hover { 
+  stroke: black ;
+  stroke-width: 3
+}
+
+.rec:hover {
+  fill: black;
+}
+
