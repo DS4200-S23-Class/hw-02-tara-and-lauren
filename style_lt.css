@@ -7,53 +7,69 @@ th {
   color: white;
 }
 
-#data-abstraction {
-    display: flex;
-    flex-direction: column;
-}
-
 .centered {
 	text-align: center;
-}
-
-.container {
-  display: flex;
 }
 
 .left  {
   text-align: left;
 }
 
-.circle {
-  width:"170" ;
-  height: "170" ;
-  color : blue ;
-  fill-opacity: .5;
+h1 {
+  font-size: 20px;
+  height: 50px;
 }
 
-.rectangle {
-  width:"100" ;
-  height: "100" ;
-  style: fill:pink;
-  stroke:blue;
-  stroke-width:3 ;
+h2 {
+  font-size: 20px;
+  height: 50px;
 }
 
+h3 {
+  font-size: 15px;
+  height: 50px;
+}
 
-.pinkcolumn {
+h4 {
+  font-size: 15px;
+  height: 50px;
+}
+
+h5 {
+  font-size: 15px;
+  height: 50px;
+}
+
+h6 {
+  font-size: 20px;
+  height: 50px;
+}
+
+h7 {
+  font-size: 20px;
+  height: 50px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
-  background-color: pink;
+}
+
+.hotpink-column {
+  background-color: hotpink;
   height: 40px;
 }
 
-.bluecolumn {
-  bdisplay: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-  background-color: blue;
+.greenyellow-column {
+  background-color: greenyellow;
   height: 40px;
 }
