@@ -105,4 +105,9 @@ rect:hover {
   fill: #000;
 }
 
+svg {
+  width: 10%;
+  height: auto;
+}
+
 
